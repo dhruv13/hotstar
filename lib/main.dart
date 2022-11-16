@@ -26,6 +26,14 @@ class _hotstarState extends State<hotstar> {
 
   int get index=> 0;
 
+  int a=0;
+  @override
+  void initState() {
+    super.initState();
+
+    print(a);
+  }
+
   @override
   Widget build(BuildContext context) {
 
